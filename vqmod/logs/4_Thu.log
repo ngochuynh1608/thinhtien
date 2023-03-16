@@ -1,0 +1,47 @@
+---------- Date: 2020-06-18 14:28:22 ~ IP : 157.55.39.156 ----------
+REQUEST URI : /?5ercjt_algx0gxsaeb81c5r65z6zvjf5zzyldv3oya4
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2020-06-18 23:12:23 ~ IP : 40.77.167.91 ----------
+REQUEST URI : /?ca7q3g2e587d98oyk-afo
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/pushassist_admin.xml
+   id        : VQMOD CORE FOR OPENCART - DO NOT REMOVE
+   version   : 1.4.x and 1.5.x
+   vqmver    : 2.4.0
+   author    : Opcrat
+VQModObject::parseMods - Could not resolve path for [admin/controller/common/menu.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [admin/view/template/common/menu.tpl] (SKIPPED)
+
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/vqmm_menu_shortcut.xml
+   id        : VQMod Manager Menu Shortcut
+   version   : 2.0.0
+   vqmver    : 2.3.0
+   author    : Jason Clark (mithereal@gmail.com)
+VQModObject::parseMods - Could not resolve path for [admin/controller/common/menu.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [admin/view/template/common/menu.tpl] (SKIPPED)
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+
+----------------------------------------------------------------------
+
+

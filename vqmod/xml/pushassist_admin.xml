@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<modification>
+	<id>VQMOD CORE FOR OPENCART - DO NOT REMOVE</id>
+	<version>1.4.x and 1.5.x</version>
+	<vqmver required="true">2.4.0</vqmver>
+	<author>Opcrat</author>
+	
+	<file name="admin/controller/common/menu.php">
+		<operation>
+			<search position="after"><![CDATA[$data['text_openbay_order_import']]]></search>
+			<add><![CDATA[
+				$data['text_pushassist'] = $this->language->get('text_pushassist');
+				$data['text_dashboard'] = $this->language->get('text_dashboard');
+				$data['text_notifications'] = $this->language->get('text_notifications');
+				$data['text_send_notification'] = $this->language->get('text_send_notification');
+				$data['text_segments'] = $this->language->get('text_segments');
+				$data['text_create_segment'] = $this->language->get('text_create_segment');
+				$data['text_subscribers'] = $this->language->get('text_subscribers');
+				$data['text_settings'] = $this->language->get('text_settings');
+				$data['text_campaigns'] = $this->language->get('text_campaigns');
+				
+				]]></add>
+		</operation>
+		
+		<operation>
+			<search position="after"><![CDATA[$data['openbay_link_amazonus_links']]]></search>
+			<add><![CDATA[
+				$data['pushassist_dashboard'] = $this->url->link('pushassist/dashboard', 'token=' . $this->session->data['token'], 'SSL');
+				$data['pushassist_notifications'] = $this->url->link('pushassist/notifications', 'token=' . $this->session->data['token'], 'SSL');
+				$data['pushassist_send_notification'] = $this->url->link('pushassist/sendnotification', 'token=' . $this->session->data['token'], 'SSL');
+				$data['pushassist_segments'] = $this->url->link('pushassist/segments', 'token=' . $this->session->data['token'], 'SSL');
+				$data['pushassist_create_segment'] = $this->url->link('pushassist/createsegment', 'token=' . $this->session->data['token'], 'SSL');
+				$data['pushassist_subscribers'] = $this->url->link('pushassist/subscribers', 'token=' . $this->session->data['token'], 'SSL');
+				$data['pushassist_settings'] = $this->url->link('pushassist/settings', 'token=' . $this->session->data['token'], 'SSL');
+				$data['pushassist_campaigns'] = $this->url->link('pushassist/campaigns', 'token=' . $this->session->data['token'], 'SSL');
+				
+				
+			]]></add>
+		</operation>
+		
+	</file>
+	
+	<file name="admin/language/*/common/menu.php">
+		<operation>
+			<search position="after"><![CDATA[$_['text_paypal_manage']]]></search>
+			<add><![CDATA[
+				$_['text_pushassist']	= 'PushAssist';
+				$_['text_dashboard']	= 'Dashboard';
+				$_['text_notifications'] = 'Notifications';
+				$_['text_send_notification']	= 'Send Notification';
+				$_['text_segments']	= 'Segments';
+				$_['text_create_segment'] = 'Create Segments';
+				$_['text_subscribers'] = 'Subscribers';
+				$_['text_settings'] = 'Settings';
+				$_['text_campaigns'] = 'Campaigns';
+				
+				
+			]]></add>
+		</operation>
+	</file>
+	
+	<file name="admin/view/template/common/menu.tpl">
+		<operation>
+			<search position="before"><![CDATA[<li id="reports">]]></search>
+			<add><![CDATA[
+				<li id="pushassist"><a class="parent"><i class="fa fa-bell"></i> <span><?php echo $text_pushassist; ?></span></a>
+                    <ul>
+                        <li><a href="<?php echo $pushassist_dashboard; ?>"><?php echo $text_dashboard; ?></a></li>
+                        <li><a href="<?php echo $pushassist_notifications; ?>"><?php echo $text_notifications; ?></a></li>
+              		<li><a href="<?php echo $pushassist_send_notification; ?>"><?php echo $text_send_notification; ?></a></li>
+              		<li><a href="<?php echo $pushassist_segments; ?>"><?php echo $text_segments; ?></a></li>
+              		<li><a href="<?php echo $pushassist_create_segment; ?>"><?php echo $text_create_segment; ?></a></li>
+              		<li><a href="<?php echo $pushassist_subscribers; ?>"><?php echo $text_subscribers; ?></a></li>
+			<li><a href="<?php echo $pushassist_settings; ?>"><?php echo $text_settings; ?></a></li>
+                        <li><a href="<?php echo $pushassist_campaigns; ?>"><?php echo $text_campaigns; ?></a></li>
+                        
+                    </ul>
+                </li>
+			]]></add>
+		</operation>
+	</file>
+	
+	<file name="catalog/view/theme/*/template/common/header.tpl">
+      <operation info="">
+        <search position="before" index="1" error="log">
+          <![CDATA[</head>]]>
+        </search>
+        <add>
+          <![CDATA[
+            <?php 
+            global $config;
+            $pushassist_js_path=$config->get('pushassist_account_name');
+            $pushassist_js_path_full='https://cdn.pushassist.com/account/assets/psa-'.$pushassist_js_path.'.js';
+            if(isset($pushassist_js_path) && $pushassist_js_path != '' ) {?>
+              <script src="<?php echo $pushassist_js_path_full; ?>">
+               
+              </script>
+            <?php } ?>
+          ]]>
+        </add>
+      </operation>
+    </file>
+   
+</modification>

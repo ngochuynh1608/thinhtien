@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<id>Export/Import Tool</id>
+	<author>Lugano from Lugansk</author>
+	<version>2.0.3.1</version>
+	<file path="admin/controller/common/menu.php">
+		<operation>
+			<search ><![CDATA[$data['text_backup'] = $this->language->get('text_backup');]]></search>
+			<add position="after"><![CDATA[		$data['text_export'] = $this->language->get('text_export');]]></add>
+		</operation>
+		<operation>
+			<search ><![CDATA[$data['backup'] = $this->url->link('tool/backup', 'token=' . $this->session->data['token'], 'SSL');]]></search>
+			<add position="after"><![CDATA[			$data['export'] = $this->url->link('tool/export', 'token=' . $this->session->data['token'], 'SSL');]]></add>
+		</operation>
+	</file>
+	<file path="admin/language/russian/common/menu.php">
+		<operation>
+			<search ><![CDATA[$_['text_backup']]]></search>
+			<add position="after"><![CDATA[$_['text_export']           = 'Экспорт/Импорт';]]></add>
+		</operation>
+	</file>
+	<file path="admin/language/english/common/menu.php">
+		<operation>
+			<search ><![CDATA[$_['text_backup']]]></search>
+			<add position="after"><![CDATA[$_['text_export']           = 'Export/Import';]]></add>
+		</operation>
+	</file>
+	<file path="admin/view/template/common/menu.tpl">
+	<operation>
+		<search><![CDATA[
+		<li><a href="<?php echo $backup; ?>"><?php echo $text_backup; ?></a></li>
+		]]></search>
+		<add position="after"><![CDATA[<li><a href="<?php echo $export; ?>"><?php echo $text_export; ?></a></li>
+		]]></add>
+	</operation>
+    </file>
+</modification>

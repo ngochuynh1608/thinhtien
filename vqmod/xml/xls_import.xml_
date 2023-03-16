@@ -1,0 +1,47 @@
+<modification>
+	<id>xls_import</id>
+	<version>1.0.0</version>
+	<vqmver>2.1.5</vqmver>
+	<author>Sava</author>
+
+	<file name="admin/view/template/common/header.tpl">
+		<operation>
+			<search position="after">
+            <![CDATA[<li><a href="<?php echo $backup; ?>"><?php echo $text_backup; ?></a></li>]]>
+            </search>
+             <add><![CDATA[
+            <li><a href="<?php echo $xls_import; ?>"><?php echo $text_xls_import; ?></a></li>
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="admin/controller/common/header.php">
+        <operation>
+            <search position="after">
+            <![CDATA[$this->data['text_backup'] = $this->language->get('text_backup');]]>
+            </search>
+            <add>
+            <![CDATA[$this->data['text_xls_import'] = $this->language->get('text_xls_import');]]>
+            </add>
+        </operation>
+        <operation>
+            <search position="after">
+            <![CDATA[$this->data['backup'] = $this->url->link('tool/backup', 'token=' . $this->session->data['token'], 'SSL');]]>
+            </search>
+            <add>
+            <![CDATA[$this->data['xls_import'] = $this->url->link('tool/xls_import', 'token=' . $this->session->data['token'], 'SSL');]]>
+            </add>
+        </operation>
+
+    </file>
+    <file name="admin/language/*/common/header.php">
+        <operation>
+            <search position="before">
+            <![CDATA[$_['text_backup']]>
+            </search>
+            <add>
+            <![CDATA[$_['text_xls_import'] = 'EXCEL Import';]]>
+            </add>
+        </operation>
+    </file>
+</modification>

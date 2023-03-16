@@ -1,0 +1,32 @@
+---------- Date: 2020-07-21 08:47:02 ~ IP : 216.244.66.243 ----------
+REQUEST URI : /home/detail/319
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/pushassist_admin.xml
+   id        : VQMOD CORE FOR OPENCART - DO NOT REMOVE
+   version   : 1.4.x and 1.5.x
+   vqmver    : 2.4.0
+   author    : Opcrat
+VQModObject::parseMods - Could not resolve path for [admin/controller/common/menu.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [admin/view/template/common/menu.tpl] (SKIPPED)
+
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/vqmm_menu_shortcut.xml
+   id        : VQMod Manager Menu Shortcut
+   version   : 2.0.0
+   vqmver    : 2.3.0
+   author    : Jason Clark (mithereal@gmail.com)
+VQModObject::parseMods - Could not resolve path for [admin/controller/common/menu.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [admin/view/template/common/menu.tpl] (SKIPPED)
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+
+----------------------------------------------------------------------
+
+

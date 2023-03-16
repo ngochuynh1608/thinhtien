@@ -1,0 +1,19 @@
+<?php
+// Heading 
+$_['heading_title']     		= 'Settings / Account Information';
+
+// Text
+
+$_['text_success']= 'You have successfully modified PushAssist!';
+$_['text_save_button']= 'Save Settings';
+$_['text_gsm_project_no']= 'GCM Project No.';
+$_['text_gsm_apikey']= 'GCM API Key';
+$_['text_auto_script']= 'Stop Automatic Script Inclusion. In That Case You Have to Manually Install our Script.';
+$_['text_auto_message']= 'Notification Message When a Product is Added';
+
+// Error
+$_['error']='';  
+$_['error_warning']                    = 'Warning: Please check the form carefully for errors!';
+$_['error_permission'] 			= 'Warning: You do not have permission to modify PushAssist!';
+$_['error_filesize'] ='Image Size must be exactly 250x250px.';
+?>

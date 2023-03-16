@@ -1,0 +1,259 @@
+---------- Date: 2020-07-19 09:49:51 ~ IP : 114.119.165.48 ----------
+REQUEST URI : /mouse/mouse-dell-ms116-usb-black.html
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/pushassist_admin.xml
+   id        : VQMOD CORE FOR OPENCART - DO NOT REMOVE
+   version   : 1.4.x and 1.5.x
+   vqmver    : 2.4.0
+   author    : Opcrat
+VQModObject::parseMods - Could not resolve path for [admin/controller/common/menu.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [admin/view/template/common/menu.tpl] (SKIPPED)
+
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/vqmm_menu_shortcut.xml
+   id        : VQMod Manager Menu Shortcut
+   version   : 2.0.0
+   vqmver    : 2.3.0
+   author    : Jason Clark (mithereal@gmail.com)
+VQModObject::parseMods - Could not resolve path for [admin/controller/common/menu.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [admin/view/template/common/menu.tpl] (SKIPPED)
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2020-07-19 15:22:49 ~ IP : 40.77.167.167 ----------
+REQUEST URI : /dbmw4ysjauyq43df264wv_09aps
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2020-07-19 15:22:49 ~ IP : 40.77.167.215 ----------
+REQUEST URI : /3acm9xqwf58ff290c6y9836bssbzakc
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/pushassist_admin.xml
+   id        : VQMOD CORE FOR OPENCART - DO NOT REMOVE
+   version   : 1.4.x and 1.5.x
+   vqmver    : 2.4.0
+   author    : Opcrat
+VQModObject::parseMods - Could not resolve path for [admin/controller/common/menu.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [admin/view/template/common/menu.tpl] (SKIPPED)
+
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/vqmm_menu_shortcut.xml
+   id        : VQMod Manager Menu Shortcut
+   version   : 2.0.0
+   vqmver    : 2.3.0
+   author    : Jason Clark (mithereal@gmail.com)
+VQModObject::parseMods - Could not resolve path for [admin/controller/common/menu.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [admin/view/template/common/menu.tpl] (SKIPPED)
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2020-07-19 15:22:54 ~ IP : 207.46.13.24 ----------
+REQUEST URI : /277j9r0f07591qgm3t3zia
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2020-07-19 15:23:02 ~ IP : 207.46.13.243 ----------
+REQUEST URI : /?2ek6y700cecef5otyuwnfj
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2020-07-19 15:23:03 ~ IP : 114.119.165.48 ----------
+REQUEST URI : /9eik-hufr6rd336487-260pa
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2020-07-19 15:23:07 ~ IP : 40.77.167.124 ----------
+REQUEST URI : /9atx_j6u0s_pa253a8dwzqppcubsmz28
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2020-07-19 15:23:09 ~ IP : 216.244.66.243 ----------
+REQUEST URI : /index.php?component=cart&p=7112
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2020-07-19 15:23:12 ~ IP : 207.46.13.238 ----------
+REQUEST URI : /ab3-atnz-curbht9a7dd8ftq9acjc7fvoi7oai
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2020-07-19 15:23:14 ~ IP : 207.46.13.245 ----------
+REQUEST URI : /75d1asqlqj9q747744dtv_pzuspcdgts
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2020-07-19 15:23:20 ~ IP : 40.77.167.148 ----------
+REQUEST URI : /86kbu10f9962gumin
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2020-07-19 15:23:21 ~ IP : 40.77.167.0 ----------
+REQUEST URI : /?3fqi1d-jw186329e48q8pcctq4_4
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2020-07-19 15:23:21 ~ IP : 157.55.39.83 ----------
+REQUEST URI : /4f3_82d49869ibru-i
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2020-07-19 15:23:23 ~ IP : 157.55.39.83 ----------
+REQUEST URI : /4dk6_s74fad03y75tv
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2020-07-19 15:23:25 ~ IP : 40.77.167.148 ----------
+REQUEST URI : /86kbu10f9962gumin
+MOD DETAILS:
+   modFile   : /var/sentora/hostdata/zadmin/public_html/thinhtien_vn/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
